@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "zap-api"
+version = "0.1.0"
+description = ""
+authors = ["Reuben-Stephen-John <reuben.sj2003@gmail.com>"]
+readme = "README.md"
+packages = [{include = "zap_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.1.4"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
